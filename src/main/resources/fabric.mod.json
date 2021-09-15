@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "wetlavasponge",
+  "version": "${version}",
+
+  "name": "Wet Lava Sponge",
+  "description": "Makes trades worse and more balanced",
+  "authors": [
+    ""
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gmail.sneakdevs.wetlavasponge.WetLavaSponge"
+    ]
+  },
+  "mixins": [
+    "wetlavasponge.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
